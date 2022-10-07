@@ -1,47 +1,77 @@
+/* Style for the body */
 body {
+    /* Use flex display */
     display: flex;
+    /* Display items in a column */
     flex-direction: column;
+    /* Center align text */
     text-align: center;
+    /* Occupy the whole screen */
     width: 100%;
     height: 100%;
+    /* Use light blue background color */
     background-color: #E7F6F2;
 }
 
+/* Style for the container of todo list */
 .center-div {
+    /* Use flex display */
     display: flex;
+    /* Display items in a column */
     flex-direction: column;
+    /* Center align items */
     align-items: center;
+    /* Set width to be 60% of its parent element */
     width: 60%;
+    /* Set margin on right and left to 20%*/
     margin-left: 20%;
     margin-right: 20%;
-    text-overflow: ellipsis;
 }
 
+/* Style the container of search bar */
 .search-bar {
+    /* Use flex display */
     display: flex;
+    /* Display all widgets in search bar in a row */
     flex-direction: row;
+    /* Set the margin at top to be 5px */
     margin-top: 5px;
 }
 
+/* Style the list */
 ul {
+    /* Display items in block */
     display: block;
+    /* Remove bullet in front of each list item */
     list-style: none;
+    /* Center align items */
     align-items: center;
+    /* Change the background color */
     background-color: #A5C9CA;
+    /* Remove margin */
     margin: 0%;
+    /* Pad 15px each side */
     padding: 15px;
+    /* Round the border */
     border-radius: 10px;
+    /* Set width to be 60% of its parent */
     width: 60%;
+    /* Set height to be 100% of its parent */
     height: 100%;
 }
 
+/* Style list item */
 li {
+    /* Set the top margin to 10px to separate each item vertically in the list */
     margin-top: 10px;
+    /* Use flex display */
     display: flex;
+    /* Display items in row */
     flex-direction: row;
+    /* Occupy the full width of the parent element */
     width: 100%;
-    flex-grow: 2;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 3px;
+    /* Round the corners */
     border-radius: 5px;
 }
